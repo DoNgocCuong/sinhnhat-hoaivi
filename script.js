@@ -151,12 +151,18 @@ function createMiniBox() {
     "22",
     "23",
     "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
   ];
 
   let randomIndex = Math.floor(Math.random() * list.length);
   let randomValue = list[randomIndex];
 
-  img.src = `./image/${randomValue}.jpg`;
+  img.src = `./image/${randomValue}.png`;
   img.alt = "Image";
   content.appendChild(img);
   miniBox.appendChild(content);
