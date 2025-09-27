@@ -112,7 +112,7 @@ function createMiniBox() {
   const header = document.createElement("div");
   header.classList.add("box-header");
   const title = document.createElement("p");
-  title.textContent = "Happy Birthday";
+  title.textContent = "Happy Birthday Cốt";
   const closeButton = document.createElement("a");
   closeButton.textContent = "-";
   closeButton.href = "#";

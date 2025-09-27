@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 #wrapper {
   display: flex;
   flex-direction: column;
@@ -9,14 +10,16 @@ body {
   align-items: center;
   height: 90vh;
   width: 100vw;
-  background: #e8e2ee;
+  background: #ebc9e5;
   padding: 5vh 0;
   margin: 0;
   border: 0;
 }
+
 .bounceInDown {
   opacity: 1 !important;
 }
+
 #present {
   width: 300px;
   height: 220px;
@@ -24,6 +27,7 @@ body {
   cursor: pointer;
   opacity: 0;
 }
+
 #present #box {
   position: absolute;
   width: 100%;
@@ -51,6 +55,7 @@ body {
   border-top-right-radius: 10px;
   z-index: 2;
 }
+
 #present #top img {
   position: absolute;
   top: -5px;
@@ -69,6 +74,13 @@ body {
   z-index: 0;
 }
 
+#wish {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
 #wish div {
   font-size: 100px;
   font-weight: bold;
@@ -78,6 +90,28 @@ body {
   display: inline-block;
   opacity: 0;
 }
+
+#wish .name {
+  width: 100%;
+  /* chiếm cả dòng */
+  display: flex;
+  justify-content: center;
+  /* căn giữa chữ */
+  margin-top: 20px;
+  /* cách Happy Birthday */
+}
+
+#wish .name div {
+  font-size: 100px;
+  /* giống style HAPPY BIRTHDAY */
+  font-weight: bold;
+  color: #f44336;
+  text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+  letter-spacing: 5px;
+  display: inline-block;
+  opacity: 0;
+}
+
 .swing {
   animation-iteration-count: infinite;
   opacity: 1 !important;
@@ -95,6 +129,7 @@ body {
   opacity: 1;
   transition: opacity 1s;
 }
+
 #touch-cat {
   position: absolute;
   top: 80%;
